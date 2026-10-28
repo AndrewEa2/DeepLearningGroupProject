@@ -1,0 +1,33 @@
+# Python environments and cache files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+plan/
+proposal/
+
+# Source data and generated experiment artifacts
+dataset/*.csv
+data/*.csv
+models/
+checkpoints/
+outputs/
+results/
+*.joblib
+*.pkl
+*.pt
+*.safetensors
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+AGENTS.md

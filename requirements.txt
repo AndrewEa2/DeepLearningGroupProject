@@ -1,0 +1,10 @@
+# Supported runtime: CPython 3.13
+torch>=2.6.0
+transformers>=4.50.0
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.6
+ipykernel>=7.0
+jupyter>=1.0
+matplotlib>=3.9
+seaborn>=0.13
