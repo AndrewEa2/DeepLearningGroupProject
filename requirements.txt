@@ -8,3 +8,4 @@ ipykernel==7.4.0
 python-dotenv==1.2.4
 torch==2.15.0+cu132
 transformers
+accelerate
